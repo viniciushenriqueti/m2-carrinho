@@ -1,0 +1,22 @@
+{
+    "name": "vinicius/carrinho",
+    "description": "módulo para adicionar os botões [+] e [-] para controle da quantidade desejada de cada produto no carrinho de compras. Este botões devem incrementar e decrementar o campo de estoque do produto com as devidas validações de formato numérico e permitir apenas valores positivos.",
+    "require": {
+      "magento/framework": "102.0.*"
+    },
+    "type": "magento2-module",
+    "version": "0.74.0-beta4",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Vinicius/Carrinho"
+            ]
+        ]
+    }
+}
